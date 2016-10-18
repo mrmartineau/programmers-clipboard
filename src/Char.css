@@ -1,0 +1,16 @@
+.Char {
+	font-size: 40px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.Char:hover {
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+.Char:active {
+	background-color: #cdcdcd;
+	cursor: pointer;
+}

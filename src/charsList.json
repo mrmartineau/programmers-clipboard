@@ -1,0 +1,33 @@
+[
+	{
+		"char": "↩",
+		"html": "↩",
+		"hexadecimal": "21A9",
+		"name": "Leftwards arrow with hook"
+	},
+	{
+		"char": "←",
+		"html": "←",
+		"hexadecimal": "2190",
+		"name": "Leftwards arrow"
+	},
+	{
+		"char": "→",
+		"html": "→",
+		"hexadecimal": "2192",
+		"name": "Rightwards arrow"
+	},
+	{
+		"char": "↑",
+		"html": "↑",
+		"hexadecimal": "2191",
+		"name": "Upwards arrow"
+	},
+	{
+		"char": "↓",
+		"html": "↓",
+		"hexadecimal": "2193",
+		"name": "Downwards arrow"
+	}
+
+]
