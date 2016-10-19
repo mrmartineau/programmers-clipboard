@@ -1,33 +1,72 @@
 [
 	{
 		"char": "↩",
-		"html": "↩",
 		"hexadecimal": "21A9",
 		"name": "Leftwards arrow with hook"
 	},
 	{
 		"char": "←",
-		"html": "←",
 		"hexadecimal": "2190",
 		"name": "Leftwards arrow"
 	},
 	{
 		"char": "→",
-		"html": "→",
 		"hexadecimal": "2192",
 		"name": "Rightwards arrow"
 	},
 	{
 		"char": "↑",
-		"html": "↑",
 		"hexadecimal": "2191",
 		"name": "Upwards arrow"
 	},
 	{
 		"char": "↓",
-		"html": "↓",
 		"hexadecimal": "2193",
 		"name": "Downwards arrow"
+	},
+	{
+		"char": "“",
+		"hexadecimal": "201C",
+		"name": "Left double quotation mark"
+	},
+	{
+		"char": "”",
+		"hexadecimal": "201D",
+		"name": "Right double quotation mark"
+	},
+	{
+		"char": "‘",
+		"hexadecimal": "2018",
+		"name": "Left single quotation mark"
+	},
+	{
+		"char": "’",
+		"hexadecimal": "2019",
+		"name": "Right single quotation mark"
+	},
+	{
+		"char": "„",
+		"hexadecimal": "201E",
+		"name": "Double low 9 quotation mark"
+	},
+	{
+		"char": "’",
+		"hexadecimal": "201A",
+		"name": "Single low 9 quotation mark"
+	},
+	{
+		"char": "×",
+		"hexadecimal": "00D7",
+		"name": "Multiplication sign"
+	},
+	{
+		"char": "©",
+		"hexadecimal": "00A9",
+		"name": "Copyright sign"
+	},
+	{
+		"char": "®",
+		"hexadecimal": "00AE",
+		"name": "Registered sign"
 	}
-
 ]
