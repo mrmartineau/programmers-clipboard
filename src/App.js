@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Char from './Char';
 import charsList from './charsList';
@@ -7,6 +6,7 @@ import charsList from './charsList';
 class App extends Component {
 
 	render() {
+		const choice = 'css';
 
 		return (
 			<div className="App">
@@ -14,17 +14,9 @@ class App extends Component {
 					<h2>Simple copy & paste characters</h2>
 				</div>
 
-				{charsList.map(item => <Char data={item} key={item.name}/> )}
+				{charsList.map(item => <Char data={item} choice={choice} key={item.hexadecimal}/> )}
 			</div>
 		);
-	}
-
-	handleCopy() {
-		const prefixes = {
-			css: '\\u',
-			javascript: '\\',
-			'hexadecimal-ncr': '&#x',
-		}
 	}
 }
 
