@@ -8,7 +8,6 @@ class OutputChooser extends Component {
 	}
 
 	handleChange(ev) {
-		// console.log(ev.target.value);
 		this.props.handleChoiceChange(ev.target.value);
 	}
 
