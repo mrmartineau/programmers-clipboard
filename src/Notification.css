@@ -1,0 +1,15 @@
+.Notification {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 200ms ease-in-out;
+	background-color: #364f6b;
+	border-radius: 50px;
+	padding: .5em 1.5em;
+	display: inline-block;
+	color: #fff;
+}
+
+.Notification.is-active {
+	opacity: 1;
+	visibility: visible;
+}

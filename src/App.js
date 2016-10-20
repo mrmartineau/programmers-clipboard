@@ -14,6 +14,7 @@ class App extends Component {
 		this.state = {
 			choice: 'char',
 			copied: '',
+			notificationActive: false,
 		};
 		this.handleCopy = this.handleCopy.bind(this);
 		this.handleChoiceChange = this.handleChoiceChange.bind(this);
@@ -28,7 +29,7 @@ class App extends Component {
 				</div>
 				<OutputChooser choice={this.state.choice} handleChoiceChange={this.handleChoiceChange} />
 				{charsList.map(item => <Char data={item} choice={this.state.choice} key={item.hexadecimal} handleCopy={this.handleCopy}/> )}
-				<Notification text={this.state.copied}/>
+				<Notification text={this.state.copied} active={this.state.notificationActive}/>
 			</div>
 		);
 	}
@@ -54,7 +55,14 @@ class App extends Component {
 		copy(copyText);
 		this.setState({
 			copied: copyText,
+			notificationActive: true,
 		})
+
+		setTimeout(() => {
+			this.setState({
+				notificationActive: false,
+			})
+		}, 1000);
 	}
 
 	handleChoiceChange(choice) {
