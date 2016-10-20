@@ -11,11 +11,12 @@
     line-height: 1;
     cursor: pointer;
     transition: all 200ms ease-in-out;
+	color: #364f6b;
 }
 
 .OutputChooser-label:hover,
 .OutputChooser-label.is-active {
-	background-color: #364f6b;
+	background-color: #fc5185;
 	color: #fff;
 }
 

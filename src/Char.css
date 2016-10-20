@@ -1,6 +1,6 @@
 .Char {
 	font-size: 40px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	display: inline-block;
 	padding: 10px;
 	vertical-align: middle;
@@ -8,10 +8,12 @@
 	width: 44px;
 	height: 44px;
     line-height: 44px;
+    color: #364f6b;
 }
 
 .Char:hover {
-	background-color: #f1f1f1;
+	/*background-color: #f1f1f1;*/
+    color: #fc5185;
 	cursor: pointer;
 }
 .Char:active {
