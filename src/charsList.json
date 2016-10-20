@@ -25,6 +25,16 @@
 		"name": "Downwards arrow"
 	},
 	{
+		"char": "❮",
+		"hexadecimal": "276E",
+		"name": "Heavy Left Pointing Angle Quotation Mark Ornament"
+	},
+	{
+		"char": "❯",
+		"hexadecimal": "276F",
+		"name": "Heavy Right Pointing Angle Quotation Mark Ornament"
+	},
+	{
 		"char": "“",
 		"hexadecimal": "201C",
 		"name": "Left double quotation mark"
@@ -55,9 +65,34 @@
 		"name": "Single low 9 quotation mark"
 	},
 	{
+		"char": "✔",
+		"hexadecimal": "2714",
+		"name": "Heavy check mark"
+	},
+	{
 		"char": "×",
 		"hexadecimal": "00D7",
 		"name": "Multiplication sign"
+	},
+	{
+		"char": "✕",
+		"hexadecimal": "2715",
+		"name": "Multiplication X"
+	},
+	{
+		"char": "╳",
+		"hexadecimal": "2573",
+		"name": "Box Drawings Light Diagonal Cross"
+	},
+	{
+		"char": "⤫",
+		"hexadecimal": "292B",
+		"name": "Rising Diagonal Crossing Falling Diagonal"
+	},
+	{
+		"char": "⤬",
+		"hexadecimal": "292C",
+		"name": "Falling Diagonal Crossing Rising Diagonal"
 	},
 	{
 		"char": "©",
@@ -68,5 +103,10 @@
 		"char": "®",
 		"hexadecimal": "00AE",
 		"name": "Registered sign"
+	},
+	{
+		"char": "☰",
+		"hexadecimal": "2630",
+		"name": "Trigram for heaven"
 	}
 ]
