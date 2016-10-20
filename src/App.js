@@ -40,8 +40,8 @@ class App extends Component {
 
 	handleCopy(char) {
 		const prefixes = {
-			css: '\\u',
-			javascript: '\\',
+			css: '\\',
+			javascript: '\\u',
 			'hexadecimal-ncr': '&#x',
 		}
 
