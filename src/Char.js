@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Char.css';
-// import copy from 'copy-js/src/copy.js';
 
 class Char extends Component {
 	constructor(props) {

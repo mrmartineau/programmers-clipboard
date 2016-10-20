@@ -5,6 +5,9 @@
 	padding: 10px;
 	vertical-align: middle;
 	font-family: sans-serif;
+	width: 44px;
+	height: 44px;
+    line-height: 44px;
 }
 
 .Char:hover {
