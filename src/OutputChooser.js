@@ -14,7 +14,7 @@ class OutputChooser extends Component {
 	render() {
 
 		const inputs = [
-			["Char", "char"],
+			["Plain text", "char"],
 			["Javascript", "javascript"],
 			["CSS", "css"],
 			["Hexadecimal", "hexadecimal-ncr"],
@@ -24,7 +24,7 @@ class OutputChooser extends Component {
 			<div className="OutputChooser">
 				{
 					inputs.map(([text, value], i) => (
-						<label className="OutputChooser-label" key={ i }>
+						<label className={`OutputChooser-label ${this.props.choice === value ? "is-active" : ""}`} key={ i }>
 							<input type="radio" name="output" value={value}
 								onChange={this.handleChange}
 								checked={this.props.choice === value}
