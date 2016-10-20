@@ -7,6 +7,7 @@ import charsList from './charsList';
 import Char from './Char';
 import OutputChooser from './OutputChooser';
 import Notification from './Notification';
+import Footer from './Footer';
 
 class App extends Component {
 	constructor(props) {
@@ -32,6 +33,7 @@ class App extends Component {
 					{charsList.map(item => <Char data={item} choice={this.state.choice} key={item.hexadecimal} handleCopy={this.handleCopy}/> )}
 				</div>
 				<Notification text={this.state.copied} active={this.state.notificationActive}/>
+				<Footer/>
 			</div>
 		);
 	}
