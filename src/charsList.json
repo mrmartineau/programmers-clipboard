@@ -1,10 +1,5 @@
 [
 	{
-		"char": "↩",
-		"hexadecimal": "21A9",
-		"name": "Leftwards arrow with hook"
-	},
-	{
 		"char": "←",
 		"hexadecimal": "2190",
 		"name": "Leftwards arrow"
@@ -25,6 +20,11 @@
 		"name": "Downwards arrow"
 	},
 	{
+		"char": "↩",
+		"hexadecimal": "21A9",
+		"name": "Leftwards arrow with hook"
+	},
+	{
 		"char": "❮",
 		"hexadecimal": "276E",
 		"name": "Heavy Left Pointing Angle Quotation Mark Ornament"
@@ -33,6 +33,16 @@
 		"char": "❯",
 		"hexadecimal": "276F",
 		"name": "Heavy Right Pointing Angle Quotation Mark Ornament"
+	},
+	{
+		"char": "➜",
+		"hexadecimal": "279C",
+		"name": "Heavy Round-Tipped Rightwards Arrow"
+	},
+	{
+		"char": "➤",
+		"hexadecimal": "27A4",
+		"name": "Black Rightwards Arrowhead"
 	},
 	{
 		"char": "“",
@@ -68,6 +78,11 @@
 		"char": "✔",
 		"hexadecimal": "2714",
 		"name": "Heavy check mark"
+	},
+	{
+		"char": "✔",
+		"hexadecimal": "2712",
+		"name": "Check mark"
 	},
 	{
 		"char": "×",
@@ -108,5 +123,35 @@
 		"char": "☰",
 		"hexadecimal": "2630",
 		"name": "Trigram for heaven"
+	},
+	{
+		"char": "❤",
+		"hexadecimal": "2764",
+		"name": "Heavy Black Heart"
+	},
+	{
+		"char": "☀",
+		"hexadecimal": "2600",
+		"name": "Black Sun with Rays"
+	},
+	{
+		"char": "★",
+		"hexadecimal": "2605",
+		"name": "Black Star"
+	},
+	{
+		"char": "☂",
+		"hexadecimal": "2602",
+		"name": "Umbrella"
+	},
+	{
+		"char": "♫",
+		"hexadecimal": "266B",
+		"name": "Beamed Eighth Notes"
+	},
+	{
+		"char": "⟁",
+		"hexadecimal": "27C1",
+		"name": "White Triangle Containing Small White Triangle"
 	}
 ]
