@@ -24,11 +24,13 @@ class App extends Component {
 		return (
 			<div className="App">
 				<div className="App-header">
-					<h2>Simple copy & paste characters</h2>
+					<h1>Programming characters</h1>
 					<p>Copy unicode characters to your clipboard for use in different programming languages: CSS, Javascript, HTML and plain text</p>
 				</div>
 				<OutputChooser choice={this.state.choice} handleChoiceChange={this.handleChoiceChange} />
-				{charsList.map(item => <Char data={item} choice={this.state.choice} key={item.hexadecimal} handleCopy={this.handleCopy}/> )}
+				<div className="Chars">
+					{charsList.map(item => <Char data={item} choice={this.state.choice} key={item.hexadecimal} handleCopy={this.handleCopy}/> )}
+				</div>
 				<Notification text={this.state.copied} active={this.state.notificationActive}/>
 			</div>
 		);

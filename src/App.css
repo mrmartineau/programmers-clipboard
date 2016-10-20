@@ -6,8 +6,18 @@
   background-color: #364f6b;
   padding: 20px;
   color: white;
-  margin-bottom: 30px;
 }
-.App-header h2 {
+
+.App-header h1 {
   font-weight: normal;
+  margin-top: 0;
+}
+
+.App-header p {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.Chars {
+	margin-bottom: 20px;
 }
