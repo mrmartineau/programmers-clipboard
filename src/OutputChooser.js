@@ -12,36 +12,26 @@ class OutputChooser extends Component {
 	}
 
 	render() {
+
+		const inputs = [
+			["Char", "char"],
+			["Javascript", "javascript"],
+			["CSS", "css"],
+			["Hexadecimal", "hexadecimal-ncr"],
+		];
+
 		return (
 			<div className="OutputChooser">
-				<label className="OutputChooser-label">
-					<input type="radio" name="output" value="char"
-						onChange={this.handleChange}
-						checked={this.props.choice === 'char'}
-					/> Char
-				</label>
-
-				<label className="OutputChooser-label">
-					<input type="radio" name="output" value="javascript"
-						onChange={this.handleChange}
-						checked={this.props.choice === 'javascript'}
-					/> Javascript
-				</label>
-
-				<label className="OutputChooser-label">
-					<input type="radio" name="output" value="css"
-						onChange={this.handleChange}
-						checked={this.props.choice === 'css'}
-					/> CSS
-				</label>
-
-				<label className="OutputChooser-label">
-					<input type="radio" name="output" value="hexadecimal-ncr"
-						onChange={this.handleChange}
-						checked={this.props.choice === 'hexadecimal-ncr'}
-					/> Hexadecimal
-				</label>
-
+				{
+					inputs.map(([text, value], i) => (
+						<label className="OutputChooser-label" key={ i }>
+							<input type="radio" name="output" value={value}
+								onChange={this.handleChange}
+								checked={this.props.choice === value}
+							/> {text}
+						</label>
+					))
+				}
 			</div>
 		);
 	}
