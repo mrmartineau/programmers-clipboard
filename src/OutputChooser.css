@@ -1,22 +1,25 @@
 .OutputChooser {
 	margin-bottom: 20px;
-	/*background-color: #f1f1f1;*/
+	font-size: 15px;
+}
+
+.OutputChooser-info {
+	display: inline-block;
+	margin-right: 10px;
 }
 
 .OutputChooser-label {
 	margin: 0;
-	/*background-color: #f1f1f1;*/
     display: inline-block;
     padding: 0.5em 1em;
     line-height: 1;
     cursor: pointer;
     transition: all 200ms ease-in-out;
-	color: #364f6b;
 }
 
 .OutputChooser-label:hover,
 .OutputChooser-label.is-active {
-	background-color: #fc5185;
+	background-color: #364f6b;
 	color: #fff;
 }
 

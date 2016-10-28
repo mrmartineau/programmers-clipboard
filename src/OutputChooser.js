@@ -22,6 +22,7 @@ class OutputChooser extends Component {
 
 		return (
 			<div className="OutputChooser">
+				<div className="OutputChooser-info">Choose output:</div>
 				{
 					inputs.map(([text, value], i) => (
 						<label className={`OutputChooser-label ${this.props.choice === value ? "is-active" : ""}`} key={ i }>

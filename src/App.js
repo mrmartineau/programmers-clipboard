@@ -25,8 +25,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<div className="App-header">
-					<h1>Programming characters</h1>
-					<p>Copy unicode characters to your clipboard for use in different programming languages: CSS, Javascript, HTML and plain text</p>
+					<h1>Programmer's clipboard</h1>
 				</div>
 				<OutputChooser choice={this.state.choice} handleChoiceChange={this.handleChoiceChange} />
 				<div className="Chars">

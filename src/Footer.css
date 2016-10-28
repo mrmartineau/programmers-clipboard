@@ -1,8 +1,4 @@
 .Footer {
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.6);
 	padding: 1em;
@@ -12,4 +8,17 @@
 .Footer p {
 	max-width: 50em;
 	margin: 0 auto;
+}
+
+
+.Footer a {
+	color: #364f6b;
+	border-bottom: 1px solid #fc5185;
+	text-decoration: none;
+	padding-left: .3em;
+	padding-right: .3em;
+}
+
+.Footer a:hover {
+	border-bottom: 1px solid currentColor;
 }
