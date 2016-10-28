@@ -20,9 +20,9 @@
 		"name": "Downwards arrow"
 	},
 	{
-		"char": "↩",
-		"hexadecimal": "21A9",
-		"name": "Leftwards arrow with hook"
+		"char": "➔",
+		"hexadecimal": "2794",
+		"name": "Heavy Wide Headed Rightwards Arrow"
 	},
 	{
 		"char": "❮",
@@ -35,9 +35,29 @@
 		"name": "Heavy Right Pointing Angle Quotation Mark Ornament"
 	},
 	{
+		"char": "↺",
+		"hexadecimal": "21BA",
+		"name": "Anticlockwise open circle arrow"
+	},
+	{
+		"char": "↻",
+		"hexadecimal": "21BB",
+		"name": "Anticlockwise open circle arrow"
+	},
+	{
+		"char": "⎋",
+		"hexadecimal": "238B",
+		"name": "Broken circle with northwest arrow"
+	},
+	{
 		"char": "➜",
 		"hexadecimal": "279C",
 		"name": "Heavy Round-Tipped Rightwards Arrow"
+	},
+	{
+		"char": "↩",
+		"hexadecimal": "21A9",
+		"name": "Leftwards arrow with hook"
 	},
 	{
 		"char": "➤",
@@ -76,11 +96,6 @@
 	},
 	{
 		"char": "✔",
-		"hexadecimal": "2714",
-		"name": "Heavy check mark"
-	},
-	{
-		"char": "✔",
 		"hexadecimal": "2712",
 		"name": "Check mark"
 	},
@@ -108,6 +123,11 @@
 		"char": "⤬",
 		"hexadecimal": "292C",
 		"name": "Falling Diagonal Crossing Rising Diagonal"
+	},
+	{
+		"char": "⊗",
+		"hexadecimal": "2297",
+		"name": "Circled times"
 	},
 	{
 		"char": "©",
