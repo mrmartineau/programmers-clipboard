@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import copy from 'copy-js/src/copy.js';
-import './App.css';
-import charsList from './charsList';
+import Char from '../components/Char';
+import OutputChooser from '../components/OutputChooser';
+import Notification from '../components/Notification';
+import charsList from '../misc/charsList';
 
-// React components
-import Char from './Char';
-import OutputChooser from './OutputChooser';
-import Notification from './Notification';
-import Footer from './Footer';
 
-class App extends Component {
+// Layouts
+import Page from '../layouts/page'
+let copy;
+
+export default class Index extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -21,21 +21,9 @@ class App extends Component {
 		this.handleChoiceChange = this.handleChoiceChange.bind(this);
 	}
 
-	render() {
-		return (
-			<div className="App">
-				<div className="App-header">
-					<h1>Programmer's clipboard</h1>
-				</div>
-				<OutputChooser choice={this.state.choice} handleChoiceChange={this.handleChoiceChange} />
-				<div className="Chars">
-					{charsList.map(item => <Char data={item} choice={this.state.choice} key={item.hexadecimal} handleCopy={this.handleCopy}/> )}
-				</div>
-				<Notification text={this.state.copied} active={this.state.notificationActive}/>
-				<Footer/>
-			</div>
-		);
-	}
+	componentDidMount () {
+    copy = require('copy-js/src/copy.js');
+  }
 
 	handleCopy(char) {
 		const prefixes = {
@@ -74,6 +62,22 @@ class App extends Component {
 			choice: choice,
 		})
 	}
-}
 
-export default App;
+	render() {
+		return (
+			<Page>
+				<div className="l-container">
+					<h1 className="text-centre">Programmer's Clipboard</h1>
+
+					<OutputChooser choice={this.state.choice} handleChoiceChange={this.handleChoiceChange} />
+					<div className="Chars">
+						{charsList.map(item => <Char data={item} choice={this.state.choice} key={item.hexadecimal} handleCopy={this.handleCopy}/> )}
+					</div>
+					<Notification text={this.state.copied} active={this.state.notificationActive}/>
+				</div>
+				<style jsx>{`
+				`}</style>
+			</Page>
+		)
+	}
+}

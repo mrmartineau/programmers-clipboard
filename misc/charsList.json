@@ -20,6 +20,11 @@
 		"name": "Downwards arrow"
 	},
 	{
+		"char": "↔",
+		"hexadecimal": "2194",
+		"name": "Left arrow right"
+	},
+	{
 		"char": "➔",
 		"hexadecimal": "2794",
 		"name": "Heavy Wide Headed Rightwards Arrow"
@@ -130,6 +135,11 @@
 		"name": "Circled times"
 	},
 	{
+		"char": "⊕",
+		"hexadecimal": "2295",
+		"name": "Circled plus"
+	},
+	{
 		"char": "©",
 		"hexadecimal": "00A9",
 		"name": "Copyright sign"
@@ -138,6 +148,11 @@
 		"char": "®",
 		"hexadecimal": "00AE",
 		"name": "Registered sign"
+	},
+	{
+		"char": "™",
+		"hexadecimal": "2122",
+		"name": "Trade mark sign"
 	},
 	{
 		"char": "☰",
@@ -173,5 +188,45 @@
 		"char": "⟁",
 		"hexadecimal": "27C1",
 		"name": "White Triangle Containing Small White Triangle"
+	},
+	{
+		"char": "†",
+		"hexadecimal": "2020",
+		"name": "Dagger"
+	},
+	{
+		"char": "‡",
+		"hexadecimal": "2021",
+		"name": "Double Dagger"
+	},
+	{
+		"char": "…",
+		"hexadecimal": "2026",
+		"name": "Ellipsis"
+	},
+	{
+		"char": "◊",
+		"hexadecimal": "25CA",
+		"name": "Lozenge"
+	},
+	{
+		"char": "♠",
+		"hexadecimal": "2660",
+		"name": "Black spade suit"
+	},
+	{
+		"char": "♣",
+		"hexadecimal": "2663",
+		"name": "Club suit"
+	},
+	{
+		"char": "♥",
+		"hexadecimal": "2665",
+		"name": "Heart suit"
+	},
+	{
+		"char": "♦",
+		"hexadecimal": "2666",
+		"name": "Diamond suit"
 	}
 ]

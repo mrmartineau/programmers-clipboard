@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './OutputChooser.css';
+import styleVars from '../misc/style-vars';
 
 class OutputChooser extends Component {
 	constructor(props) {
@@ -33,6 +33,39 @@ class OutputChooser extends Component {
 						</label>
 					))
 				}
+				<style jsx>{`
+					.OutputChooser {
+						margin-bottom: 20px;
+						font-size: 15px;
+						text-align: center;
+					}
+
+					.OutputChooser-info {
+						display: block;
+						margin-bottom: 0.5rem;
+					}
+
+					.OutputChooser-label {
+						margin: 0 0.5rem;
+						display: inline-block;
+						padding: 0.4em 0.5em;
+						line-height: 1;
+						cursor: pointer;
+						transition: all 200ms ease-in-out;
+						border-radius: 0.2rem;
+						border: 1px solid transparent;
+					}
+
+					.OutputChooser-label:hover,
+					.OutputChooser-label.is-active {
+						border: 1px solid ${styleVars.colors.accent};
+						color: ${styleVars.colors.accent};
+					}
+
+					.OutputChooser-label input {
+						display: none;
+					}
+				`}</style>
 			</div>
 		);
 	}
