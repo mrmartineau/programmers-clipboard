@@ -16,7 +16,7 @@ export default ({ children }) => (
     <footer className="text-centre">
       <p>
         <small>
-          If you would like to add more characters, please modify <a href="https://github.com/mrmartineau/programmers-clipboard/blob/master/charsList.json">this file</a> <br/>
+          If you would like to add more characters, please modify <a href="https://github.com/mrmartineau/programmers-clipboard/blob/master/misc/charsList.json">this file</a> <br/>
           <a href="https://github.com/mrmartineau/programmers-clipboard">Made</a> by <a href="https://zander.wtf">Zander ⚡</a><br/>
           using <a href="https://github.com/zeit/next.js">next.js</a> and hosted on <a href="https://zeit.co/now">now.sh</a>
         </small>
