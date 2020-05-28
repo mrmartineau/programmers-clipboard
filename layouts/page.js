@@ -1,14 +1,20 @@
 // Components
 import Head from 'next/head'
-import styleVars from '../misc/style-vars';
+import styleVars from '../misc/style-vars'
 
 export default ({ children }) => (
   <main>
     <Head>
       <title>Programmer's clipboard</title>
-      <meta description="Copy unicode characters to your clipboard for use in different programming languages: CSS, Javascript, HTML and plain text"/>
+      <meta
+        name="description"
+        content="Copy unicode characters to your clipboard for use in different programming languages: CSS, Javascript, HTML and plain text"
+      />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link rel='stylesheet' href='https://cdn.rawgit.com/TryKickoff/kickoff/72581bbd/assets/dist/css/kickoff.css'/>
+      <link
+        rel="stylesheet"
+        href="https://cdn.rawgit.com/TryKickoff/kickoff/72581bbd/assets/dist/css/kickoff.css"
+      />
     </Head>
 
     {children}
@@ -16,16 +22,24 @@ export default ({ children }) => (
     <footer className="text-centre">
       <p>
         <small>
-          If you would like to add more characters, please modify <a href="https://github.com/mrmartineau/programmers-clipboard/blob/master/misc/charsList.json">this file</a> <br/>
-          <a href="https://github.com/mrmartineau/programmers-clipboard">Made</a> by <a href="https://zander.wtf">Zander ⚡</a><br/>
-          using <a href="https://github.com/zeit/next.js">next.js</a> and hosted on <a href="https://zeit.co/now">now.sh</a>
+          If you would like to add more characters, please modify{' '}
+          <a href="https://github.com/mrmartineau/programmers-clipboard/blob/master/misc/charsList.json">
+            this file
+          </a>{' '}
+          <br />
+          <a href="https://github.com/mrmartineau/programmers-clipboard">
+            Made
+          </a>{' '}
+          by <a href="https://zander.wtf">Zander ⚡</a>
+          <br />
+          using <a href="https://github.com/zeit/next.js">next.js</a> and hosted
+          on <a href="https://vercel.com">Vercel</a>
         </small>
       </p>
     </footer>
 
     <style jsx global>{`
       html {
-
       }
       body {
         margin: 0;
